@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightblue;
+}
+
+header{
+    border: 2px solid black;
+}
+
+nav{
+    background-color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+
+    background-color: blueviolet;
+}
+
+ul{
+    list-style: none;
+}

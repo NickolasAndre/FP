@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
 body{
-    background-color: lightblue;
+    background-color: rgb(29, 44, 49);
 }
 
 header{
-    border: 2px solid black;
+    border: 2px solid rgb(55, 0, 255);
+    background-color: green;
 }
 
 nav{
@@ -21,4 +22,43 @@ a{
 
 ul{
     list-style: none;
+}
+
+li{
+    margin: 5px;
+    border: 1px solid white;
+}
+
+
+section > p{
+    color: white;
+}
+
+h1,h2,h3{
+    color: #cccc;
+}
+
+input[type=text]{
+    background-color: lightblue;
+}
+
+li:nth-child(1){
+    background-color: blueviolet;
+}
+
+article{
+    width: 200px;
+    height:200px;
+    border: 1px solid green;
+    position: relative;
+}
+
+article::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
 }

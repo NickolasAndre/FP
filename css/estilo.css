@@ -51,6 +51,7 @@ article{
     height:200px;
     border: 1px solid green;
     position: relative;
+    margin-bottom: 10px;
 }
 
 article::after{
@@ -61,4 +62,19 @@ article::after{
     width: 50%;
     height: 50%;
     background-color: aquamarine;
+}
+
+.item{
+    border: 1px solid green;
+}
+
+.item:nth-child(1){
+    margin: 24px;
+
+    padding: 24px;
+}
+
+.container{
+    border: 1px solid red;
+    color: white;
 }

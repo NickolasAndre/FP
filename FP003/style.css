@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(29, 44, 49);
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+
+    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 5px;
+}
+
+.container{
+    height: 300px;
+    margin: 40px;
+
+
+    padding-top: 100px;
+    border: 1px solid red;
+    
+    position: relative;
+
+}
+
+.item{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 400px;
+    border: 1px solid green;
+    
+}
+
+
+
+h1{
+    color: white;
+}
+

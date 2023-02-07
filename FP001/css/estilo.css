@@ -78,3 +78,20 @@ article::after{
     border: 1px solid red;
     color: white;
 }
+
+button{
+    border: none;
+    background-color: rgb(47, 0, 255);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: white;
+    transition: 1s;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.2);
+}

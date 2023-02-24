@@ -11,11 +11,55 @@ body{
     height: 100vh;
     background-color: #070707;
     
+    padding: 24px 16px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #555;
 }
 
 .container{
     max-width: 1440px;
     margin: 0 auto;
+    height: 700px;
     background-color: #090909;
     border: 1px solid #1a1a1a;
+
+    display: grid;
+    grid-gap: 16px;
+    grid-template-areas: 
+    "a a a b b"
+    "a a a b b"
+    "c c d b b"
+    "c c e e e"
+    "c c e e e";
+}
+
+.item{
+    background-color: #0b0b0b;
+    border:  1px solid  #1a1a1a;
+
+    padding: 16px 16px;
+}
+
+.item-a{
+    grid-area: a;
+}
+.item-b{
+    grid-area: b;
+}
+.item-c{
+    grid-area: c;
+}
+.item-d{
+    grid-area: d;
+}
+.item-e{
+    grid-area: e;
 }

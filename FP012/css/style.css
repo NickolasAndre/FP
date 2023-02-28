@@ -50,6 +50,7 @@ p{
 
 .item-a{
     grid-area: a;
+    
 }
 .item-b{
     grid-area: b;

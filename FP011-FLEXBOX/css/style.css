@@ -85,8 +85,6 @@ header{
 
 .container-item-1{
     flex: 3 1 600px;
-
-    
     margin-right: 8px;
     padding: 16px 0;
     display: flex;

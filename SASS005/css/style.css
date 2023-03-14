@@ -16,23 +16,29 @@ body {
 
 h1 {
   color: #fff;
-  font-size: 72px;
+  font-size: 62px;
   font-variant: small-caps;
   font-variant: small-caps;
   text-transform: uppercase;
 }
 @media screen and (max-width: 1000px) {
   h1 {
-    font-size: 48px;
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 720px) {
   h1 {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 h1 span {
   color: rgb(109, 95, 95);
+}
+
+h2 {
+  color: white;
+  color: red;
+  font-size: 24px;
 }
 
 .link {

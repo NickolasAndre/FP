@@ -1,0 +1,60 @@
+@import "_colors";
+@import "_sombra";
+
+
+$layout: dark;
+
+$bg-color: #efefef;
+$text-color: #101010;
+
+@if $layout == light{
+    $bg-color: #efefef;
+    $text-color: #101010;
+}
+
+@else if $layout == dark{
+    $bg-color: #101010;
+    $text-color: #efefef;
+}
+
+@for $i from 1 through 12{
+    .grid-#{$i}{
+        width: 96px * $i;
+    }
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    background-color:  $bg-color;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+h1{
+    color:$text-color;
+    font-size: 62px;
+
+    span{
+        color: $cinza;
+    }
+}
+
+p{
+    color: $text-color;
+    font-size: 24px;
+
+}
+

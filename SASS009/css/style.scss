@@ -58,3 +58,11 @@ $gutter: 24px;
 
   border: 1px solid red;
 }
+
+@function grid($col, $total: 12){
+  @return ($col / $total) * 100%
+}
+
+@for $i from 1 through 12{
+  .grid-
+}

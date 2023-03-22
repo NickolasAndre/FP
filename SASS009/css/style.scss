@@ -56,7 +56,13 @@ $gutter: 24px;
   margin: 48px auto;
   padding: 48px 16px;
 
-  border: 1px solid red;
+  border: 1px solid #555;
+  //clearfix
+  &::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
 }
 
 @function grid($col, $total: 12){
@@ -64,5 +70,19 @@ $gutter: 24px;
 }
 
 @for $i from 1 through 12{
-  .grid-
+  .grid-#{$i}{
+    width: calc(#{grid($i)} - #{$gutter});
+    margin: $gutter / 2;
+    background-color: #222;
+    border: 1px solid #333;
+    height: 72px;
+    float: left;
+
+    @include responsive(s){
+      width: calc(100% - #{$gutter});
+      margin: $gutter / 2;
+      float: none;
+    }
+  }
+  
 }

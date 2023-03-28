@@ -22,8 +22,7 @@ console.log(areaRetangulo(6, 2))
 */
 
 
-const upperName = function(name){
-    return name.toUpperCase();
-}
+const upperName = name => name.toUpperCase();
+
 
 console.log(upperName('nickolas'))

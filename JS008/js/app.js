@@ -1,5 +1,14 @@
-const h1 = document.querySelector('h1');
+const titulo = document.getElementById('titulo');
+console.log(titulo);
 
-console.log(h1.innerText);
 
-console.log(h1)
+const subtitle = document.getElementsByClassName('subtitle');
+
+console.log(subtitle); //console.log(subtitle[1]);
+
+
+const ul = document.getElementsByTagName('ul');
+console.log(ul);
+
+const menu = document.querySelectorAll('.menu .menu-item');
+console.log(menu);

@@ -21,3 +21,5 @@ if(media.matches){
 else{
     console.log('tamanho pc');
 }
+
+

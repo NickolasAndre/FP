@@ -1,0 +1,29 @@
+.box{
+    padding: 50px;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.red{
+    background-color: red;
+    transition: 1s ease;
+
+    color: white;
+}
+
+.blue{
+    background-color: blue;
+    transition: 1s ease;
+
+    color: white;
+}
+
+.green{
+    background-color: green;
+    transition: 1s ease;
+
+    color: white;
+}

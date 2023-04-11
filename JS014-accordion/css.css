@@ -19,5 +19,5 @@
 
 .accordion-content {
   overflow: hidden;
-  height: 0px;
+  transition: 1s ease;
 }/*# sourceMappingURL=css.css.map */

@@ -1,5 +1,7 @@
 const button = document.querySelector('button');
+
 const modal = document.getElementById('mymodal');
+
 const close = document.querySelector('.close');
 
 

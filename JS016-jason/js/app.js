@@ -1,4 +1,4 @@
-//JSON.parse(); // transforma o texto JSOM em objeto
+//JSON.parse(); // transforma o texto JSON em objeto
 
 //JSON. stringify(); // transformar um objeto do JavaScript em JSON
 

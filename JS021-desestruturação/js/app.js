@@ -7,6 +7,7 @@ document.documentElement.addEventListener('mousemove', MouseMove);
     //const{clientX, clientY} = event;
 
     //const eixoX = event.clientX;
+    
     //const eixoY = event.clientY;
 
  

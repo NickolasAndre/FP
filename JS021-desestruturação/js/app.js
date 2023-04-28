@@ -29,3 +29,5 @@ const carros = ['volks', 'fiat', 'bmw' ,'audi'];
 const [marca1, marca2, marca3, marca4] = carros;
   
 console.log(marca3)
+
+

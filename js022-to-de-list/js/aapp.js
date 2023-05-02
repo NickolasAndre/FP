@@ -22,7 +22,7 @@ function renderTodo(){
         var todoText = document.createTextNode(item);
 
         todoElement.appendChild(todoText);
-        todoText.appendChild(textElement);
+        listElement.appendChild(todoElement);
     })
 }
 

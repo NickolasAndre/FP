@@ -13,10 +13,12 @@ console.log(arr.length)
 
 function renderTodo(){
 /*
+
     for(var i = 0; i < arr.length; i++){
         console.log(i)
     }
-*/
+    
+*/ 
 
     listElement.innerHTML = '';
 

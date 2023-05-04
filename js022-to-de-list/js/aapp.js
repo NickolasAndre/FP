@@ -26,7 +26,7 @@ function renderTodo(){
 
         var linkLi = document.createElement('a');
         var textLink = document.createTextNode('Excluir');
-
+ 
         linkLi.setAttribute('href', '#');
         linkLi.setAttribute('onclick', 'deleteItem('+ index+')');
 
@@ -41,7 +41,7 @@ function renderTodo(){
 renderTodo();
 
 buttonElement.addEventListener('click', addItem)
-
+ 
 function addItem(){
     var itemTexto = textElement.value;
     arr.push(itemTexto)

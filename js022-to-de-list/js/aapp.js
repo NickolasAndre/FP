@@ -7,6 +7,7 @@ var arr = [
     'Fazer um café',
     'Ver aulas do FrontPUSH de JS',
     'Tentar executar sozinho',
+    
 ];
 
 console.log(arr.length)
@@ -19,7 +20,7 @@ function renderTodo(){
     }
     
 */ 
-
+ 
     listElement.innerHTML = '';
 
     arr.forEach((item, index) => {

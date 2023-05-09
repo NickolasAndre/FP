@@ -40,7 +40,7 @@ function renderTodo(){
         listElement.appendChild(liElement);
     })
 }
-
+ 
 renderTodo();
 
 buttonElement.addEventListener('click', addItem)
@@ -50,9 +50,9 @@ function addItem(){
     arr.push(itemTexto)
     renderTodo();
 }
-
+ 
 function deleteItem(pos){
     arr.splice(pos, 1);
-
+ 
     renderTodo();
 }

@@ -8,10 +8,12 @@ marcas.forEach(function(item, index, array){ // pode colocar outros nomes (a, b,
 //array
 
     console.log(item);
+    
 })
 */
 
 /*
+
 marcas.forEach((item) => {
     console.log(item);
 

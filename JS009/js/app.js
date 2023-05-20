@@ -5,6 +5,7 @@ console.log(menu);
 console.log(menu.className);
 console.log(menu.classList);
 
+
 menu.classList.add('teste', 'lista');
 menu.classList.remove('lista');
 menu.classList.toggle('active');
